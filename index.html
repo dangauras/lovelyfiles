@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLovePDF Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" aria-hidden="true">
+                <span class="logo-text"><strong>Lovelyfiles</strong></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">PDF Tools </a></li>
+                <li><a href="#">Image Tools </a></li>
+                <li><a href="#">Compress PDF</a></li>
+                <li><a href="#">All Tools</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign up</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Every tool you need to work with PDFs in one place</h1>
+            <p>Easy, reliable, and fast PDF solutions for everyone.</p>
+            <div class="tool-grid" id="toolGrid">
+                <!-- Tool cards will be inserted by JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://x.com/dangauras" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="images/twitter.svg" alt="Twitter"/></a>
+                <a href="https://www.facebook.com/sdangaura" title="Facebook" target="_blank" rel="noopener noreferrer"><img src="images/facebook.svg" alt="Facebook"/></a>
+                <a href="https://www.linkedin.com/in/suresh-dangaura-93b57188/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="LinkedIn"/></a>
+            </div>
+            <span>&copy; 2025 iLovePDF Clone. All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
